@@ -56,15 +56,26 @@ h2.h2 {
 	flex-wrap: wrap;
 }
 
-.container div {
-	width: 100px;
-	height: 100px;
+.container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: skyblue;
-	color: coral;
-	margin: 10px;
+	flex-wrap: wrap;
+
+	div {
+		width: 100px;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: skyblue;
+		color: coral;
+		margin: 10px;
+	}
+
+	button {
+		margin: 40px 10px;
+	}
 }
 button {
 	align-items: center;
