@@ -1,14 +1,12 @@
 import './App.scss';
-
-import Books from './Components/019/Books';
+import Ten from './Components/017/Ten';
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<h1>BOOKS</h1>
-
-				<Books />
+				<h1>UseReducer</h1>
+				<Ten />
 			</header>
 		</div>
 	);

@@ -1,14 +1,14 @@
 import './App.scss';
-
-import Books from './Components/019/Books';
+import Count from './Components/016/Count';
+import Square from './Components/016/Square';
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<h1>BOOKS</h1>
-
-				<Books />
+				<h1>UseReducer</h1>
+				<Count />
+				<Square />
 			</header>
 		</div>
 	);
